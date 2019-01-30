@@ -21,7 +21,7 @@ var line = []
 function currentLine(deliLine){
   let i = 0;
   while (i < deliLine.length) {
-    line.push(` `+ [i+1] + `.`+ deliLine[i])
+    line.push(` `+ [i+1] + `.` .emwider+ deliLine[i])
     i++;
   }
   if(deliLine.length === 0) {
